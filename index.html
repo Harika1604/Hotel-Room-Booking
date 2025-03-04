@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Room Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>🏨 Hotel Room Booking</h2>
+        <label for="userName">Enter Your Name:</label>
+        <input type="text" id="userName" placeholder="Enter your name">
+
+        <label for="roomType">Select Room Type:</label>
+        <select id="roomType">
+            <option value="Deluxe">Deluxe</option>
+            <option value="Suite">Suite</option>
+            <option value="Standard">Standard</option>
+        </select>
+
+        <button onclick="bookRoom()">Book Room</button>
+
+        <p class="message" id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
